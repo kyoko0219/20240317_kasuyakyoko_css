@@ -1,0 +1,15 @@
+@charset "utf-8";
+
+.top-header {
+    color: navy;
+    font-size: 28px;
+}
+
+.top-header__nav {
+    color: navy;
+    font-size: 28px;
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    text-align: right;
+}
