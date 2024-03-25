@@ -13,20 +13,22 @@
     color: navy;
     font-size: 28px;
     list-style: none;
-    text-decoration: none;
     display: flex;
     text-align: right;
     line-height: 50px;
+    text-decoration-line: none;
 }
 
-li {
+.top-header__nav-list a{
     margin-left: 20px;
+    list-style: none;
+    text-decoration-line: none;
 }
 
 .firstview__title--bottom{
     margin-top: 70px;
     position: absolute;
-    left: 700px;
+    left: 650px;
     z-index: 10;
 }
 
@@ -34,14 +36,14 @@ li {
     font-size: 48px;
     font-weight: lighter;
     margin-top: 36.5%;
-    margin-bottom: %
+    margin-bottom: 45%
 }
 
 .footer__bottom{
     background-color: navy;
-    height: 200px;
+    height: 180px;
     width: 70%;
-    margin-bottom:  30px;
+    margin-bottom:  20px;
     position: absolute;
     top: 725px;
 }
